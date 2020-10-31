@@ -1,6 +1,6 @@
 .PHONY:all
 
-all:trucate
+all:truncate
 
-trucate:
+truncate:
 	gcc truncate_2_9.c -o  trucate

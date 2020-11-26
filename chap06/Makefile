@@ -1,9 +1,9 @@
-ALL := iocache
+ALL := affinity
 all: $(ALL)
 .PHONY:all
 
-iocache:
-	gcc iocache_3_8.c -o $@
+affinity:
+	gcc affinity_6_5.c -o $@
 
 
 
